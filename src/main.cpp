@@ -6,9 +6,9 @@
 #define DHTPIN 12
 #define DHTTYPE DHT11
 
-const char* ssid = "Tuandat";       // Thay bằng SSID WiFi của bạn
-const char* password = "88888888";        // Thay bằng mật khẩu WiFi của bạn
-String apiKey = "RGAPEMJG8DRQ6YAE";       // API Key của ThingSpeak
+const char* ssid = "Tuandat";       
+const char* password = "88888888";        
+String apiKey = "RGAPEMJG8DRQ6YAE";       
 const char* server = "http://api.thingspeak.com/update";
 
 DHT dht(DHTPIN, DHTTYPE);
